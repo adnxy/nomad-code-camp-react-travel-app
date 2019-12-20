@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import AllPhotos from './AllPhotos';
+import Albums from './Albums';
+
 import AddAlbumButtons from './AddAlbumButtons';
-import Albums from './images/Albums';
 
 export default class App extends Component {
 	render() {

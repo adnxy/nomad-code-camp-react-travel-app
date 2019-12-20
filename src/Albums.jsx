@@ -1,5 +1,5 @@
-import React from 'react'
-import placeholder from './placeholder.png'
+import React from 'react';
+import placeholder from '../src/images/placeholder.png';
 
 export default function Albums() {
 	return (
