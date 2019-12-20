@@ -1,0 +1,133 @@
+body {
+	padding-bottom: 5%
+}
+
+.album-title {
+	text-align: center;
+	padding-top: 3%;
+}
+
+.navigation-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: white;
+	flex: 6%;
+}
+
+.navigation-logo {
+	display: flex;
+	flex: 55%;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navigation-logo-img {
+	width: 110px;
+}
+
+.navigation-button {
+	padding: 4%;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: aqua;
+	cursor: pointer;
+	color: black;
+}
+
+.navigation-logo-title {
+	padding-left: 10px;
+	color: black;
+	font-family: Avenir-Medium;
+	font-weight: bold;
+}
+
+.navigation-search-img {
+	width: 6%;
+	margin-left: 10%;
+	margin-right: 2%;
+	cursor: pointer;
+}
+
+.navigation-search-text {
+	color: black;
+	font-family: Avenir-Medium;
+	font-size: 17px;
+}
+
+.navigation {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	opacity: 0.8;
+}
+
+.first-album-container,
+.second-album-container,
+.third-album-container,
+.images-container-chiang-mai,
+.images-container-medellin,
+.images-container-prague {
+	display: flex;
+	width: 243px;
+	flex-wrap: wrap;
+	padding: 7%;
+	border: 1px solid #ecf2f9;
+	margin-top: 20px;
+	background-color: #ecf2f9;
+
+}
+
+.album-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.photos-second-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.album-photo-container-first,
+.album-photo-container-second,
+.album-photo-container-third {
+	width: 46%;
+	margin: 2%;
+}
+
+.photos-medelin,
+.photos-chiang-mai,
+.photos-prague {
+	width: 46%;
+	margin: 2%;
+}
+
+.album-buttons-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+.add-button-first-album,
+.add-button-second-album,
+.add-button-third-album {
+	padding: 0.5%;
+	border-radius: 3px;
+	font-size: 14px;
+	background-color: #ea6e3e;
+	font-family: Avenir-Medium;
+	cursor: pointer;
+	color: white;
+}
+
+.title-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
